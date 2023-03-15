@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(54, 54, 54);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.interface{
+    display: flex;
+    gap: 20px;
+}
+
+input[type = color]
+{
+    width: 100px;
+    border-radius: 90px;
+}
+
+.gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0;
+}
+
+.grid{
+    box-sizing: border-box;
+    flex-grow: 1;
+    background-color: white;
+    width: 31.25px;
+    height: 31.5px;
+}
+
+input[type=range]{
+    width: 200px;
+    height: 20px;
+}
+
+button{
+    color: white;
+    font-size: large;
+    background-color: black;
+    border: none;
+    border-radius: 180px;
+}
+
+
+.options{
+    border: solid black;
+    height: 500px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
