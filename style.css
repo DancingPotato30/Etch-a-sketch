@@ -13,10 +13,18 @@ body{
     gap: 20px;
 }
 
-input[type = color]
+.gridZone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type = color], .clear
 {
     width: 100px;
     border-radius: 90px;
+    border: none;
 }
 
 .gridContainer{
@@ -33,21 +41,16 @@ input[type = color]
     box-sizing: border-box;
     flex-grow: 1;
     background-color: white;
-    width: 31.25px;
-    height: 31.5px;
 }
 
-input[type=range]{
-    width: 200px;
-    height: 20px;
-}
 
-button{
+.gridSizeButton{
     color: white;
-    font-size: large;
+    font-size: 25px;
     background-color: black;
     border: none;
     border-radius: 180px;
+    padding: 10px;
 }
 
 
