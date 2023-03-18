@@ -57,7 +57,10 @@ colorPicker.style.backgroundColor = `${color}`;
     }
 
 function clearGrid() {
-    console.log(grid.style.backgroundColor);
+    while (gridContainer.hasChildNodes()) {
+        gridContainer.removeChild(gridContainer.firstChild);
+      }
+
 }
 
 
